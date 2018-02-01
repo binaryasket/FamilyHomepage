@@ -1,0 +1,173 @@
+body {
+   background-image: url("bg1.jpg");
+   background-repeat: repeat-x;  
+   //background-size:cover;
+   background-color: black;
+   background-attachment: fixed;
+   background-position: bottom;
+   //color: white;
+}
+
+#mainblock{
+	display: block;
+	margin: auto;
+	width: 99%;
+	height: 99%;
+
+}
+
+#secblock {
+	display: block;
+	margin: auto;
+	position: fixed;
+	left: 15%;
+	right: 15%;
+	top: 15%;
+	bottom: 12%;
+	//max-width: 1075.2px;
+	//max-height: 706.65px;
+	background-color: #e6e6e6;
+	border-radius: 15px;
+	//opacity: 0.5;
+	box-shadow: inset -2px -2px 2px #000000, inset 2px 2px 2px #000000, 0 0 5px 15px #000000;
+}
+
+#title {
+	position: fixed;
+	margin-left: auto;
+	margin-right: auto;
+	top: 3%;
+	left: 29%;
+	right: 29%;
+	bottom: 86.5%;
+	}
+
+#results_table {
+	left: 5px;
+	right: 5px;
+	top: 5px;
+	bottom: 65px;
+	overflow: auto;
+}
+
+#backblock{
+	display: block;
+	margin: auto;
+	position: absolute;
+	left: 10px;
+	bottom: -5px;
+}
+
+#ausleihen {
+	display: block;
+	margin: auto;
+	position: absolute;
+	bottom: 10px;
+	left: 38%;
+}
+
+#deleteblock {	
+	display: block;
+	margin: auto;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	
+}
+
+#choices{
+	display: block;
+	//text-align: center;
+}
+
+#tags {
+	display: inline-block;
+	position: absolute;
+}
+
+#filmlistebuttonblock{
+	display: block;
+	margin: auto;
+	position: absolute;
+	right: 10px;
+	bottom: -5px;
+}
+
+#input { 
+	display: block;
+	margin: auto;
+	position: absolute;
+	left: 5px;
+	right: 5px;
+	top: 5px;
+	bottom: 65px;
+	text-align: center;
+	overflow: auto;
+}
+
+#resultblock {
+	display: block;
+	margin: auto;
+	position: absolute;
+	left: 5px;
+	right: 5px;
+	top: 5px;
+	bottom: 65px;
+	overflow: auto;	
+}
+
+.button {
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.butto {
+  display: inline-block;
+  padding: 12px 21px;
+  font-size: 22px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:  #aaaaaa;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px  #595959;
+}
+
+.butto:hover {background-color: DarkGrey}
+
+.button1:active {
+	background-color: DarkGrey;
+	box-shadow: 0 4px #262626;
+	transform: translateY(4px);
+}
+
+.button2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+.button2:hover {
+    background-color: #555555;
+    color: white;
+}
+
+.button3 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+.button3:hover {
+    background-color: #555555;
+    color: white;
+}
