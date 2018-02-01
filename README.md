@@ -1,1 +1,1 @@
-
+A Webpage for my Family at Home using a Raspberry Pi running a webserver (Apache). Online-Calender and other cool stuff coming soon. A Movie Page is already running where you can add Movies to a list and extract watch those that have already been added.
