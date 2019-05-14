@@ -94,7 +94,7 @@
 if (isset($_POST['submit']))
 
 {
-$link = new mysqli('127.0.0.1', 'root', 'dhrc4ga39S9s', '');
+$link = new mysqli('127.0.0.1', '?', '?', '');
 $link->select_db('movies');
 $MovieNumber     = $_POST['MovieNumber'];
 $MovieName = $_POST['MovieName'];
