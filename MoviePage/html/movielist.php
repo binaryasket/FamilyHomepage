@@ -32,7 +32,7 @@
 					</tr>
 
 			<?php
-			$link = new mysqli("127.0.0.1","root","dhrc4ga39S9s",""); 
+			$link = new mysqli("127.0.0.1","?","?",""); 
 			$link->select_db('movies');
 			$query = "SELECT * FROM movielist ORDER BY MovieNumber ASC";
 			$result = mysqli_query($link,$query);
@@ -69,7 +69,7 @@
 				if (isset($_POST['deletebutton']))
 
 				{
-					$link = new mysqli('127.0.0.1', 'root', 'dhrc4ga39S9s', '');
+					$link = new mysqli('127.0.0.1', '?', '?', '');
 					$link->select_db('movies');
 					$MovieNumber= $_POST['MovieNumber'];
 					$sql = "delete from movielist where movielist.MovieNumber = $MovieNumber;";
